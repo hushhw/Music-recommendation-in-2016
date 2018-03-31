@@ -1,0 +1,318 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+div{
+    display:block;
+}
+.first{
+    position:relative;
+    height:100%;
+    color:#fff;
+    background:url(p1214.jpg);
+    background-color:#000;
+    background-size:cover;
+    background-position:50% 50%;
+    z-index:0;
+}
+
+.font{
+    font-size:12px;
+    color:white;
+}
+
+.name{
+       position: fixed;
+       width: 100%;
+       top: 8px;
+       z-index: 2;
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: flex;
+       -webkit-box-pack: justify;
+       -ms-flex-pack: justify;
+       justify-content: space-between;
+       -webkit-box-align: center;
+       -ms-flex-align: center;
+        align-items: center;
+}
+
+.name1{
+    position:relative;
+    border-left:4px solid #fff;
+    padding:2px 10px;
+    margin:0 0 0 200px;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display:flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    flex:2;
+}
+
+.name2{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 50px;
+    cursor:pointer;
+    flex:1;
+}
+
+.name3{
+    margin:0 10px 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.music{
+    display: inline-block;
+    margin: 0 6px 0 0;
+    height: 12px;
+}
+
+.mulu{
+    background: transparent;
+    opacity: 0.7;
+    border-color: rgba(255,255,255,0.7);
+
+}
+
+.name4{
+    margin-top:-10px;
+    position:fixed;
+    width:100%;
+    padding:0;
+    z-index:1;
+}
+ul,li{display:block;}
+
+a{
+    color:#333;
+    text-decoration:none;
+    position:relative;
+
+}
+.nav{
+    padding-left:200px;
+    padding-top:50px;
+}
+.nav li{
+    float:left;
+}
+.nav li a{
+    display:block;
+    height:30px;
+    text-align:center;
+    line-height:30px;
+    width:80px;
+    background:rgba(255,255,255,0.3);
+    margin-left:1px;
+}
+.nav li a.on, .nav li a:hover{
+    background:#333;
+    color:#fff;
+}
+
+.zhankai{
+    font-size:12px;
+    color:white;
+}
+
+.video{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+    z-index:-1;
+}
+
+.png{
+    clear:both;
+    margin-top:-10px;
+    position:relative;
+    text-align:center;
+    width:100%;
+    z-index:0;
+}
+.firstpng{
+    position:relative;
+    height:400px;
+    margin-top:150px;
+}
+.firstpng:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    position: relative;
+}
+
+.firstwenzi{
+    font-size:14px;
+    width: 100%;
+    color: rgba(255,255,255,0.7);
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.all{
+    position:relative;
+    width: 100%;
+    z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.lyric{
+    position:relative;
+    height:200px;
+    width:40%;
+    margin-top:250px;
+    margin-right:20%;
+    background-color:rgba(255,255,255,0.3);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    flex:2;
+}
+
+.lyricwrite{
+    border-left:4px solid white;
+    margin-left:200px;
+    padding-left:10px;
+    Line-height:1.5em;
+    position:relative;
+    font-size:18px;
+}
+
+.player{
+    position:relative;
+    margin:250px 20% 0 10%;
+    background-color:rgba(254,0,0,0.7);
+    max-height:150px;
+    max-width:150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    flex:1;
+}
+
+.photo:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    position: relative;
+}
+.second{
+    position:relative;
+    height:100%;
+    color:#fff;
+    background:url(img/p1214.jpg);
+    background-color:#000;
+    background-size:cover;
+    background-position:50% 50%;
+    z-index:-2;
+}
+.third{
+    position:relative;
+    height:100%;
+    color:#fff;
+    background:url(img/p1351.jpg);
+    background-color:#000;
+    background-size:cover;
+    background-position:50% 50%;
+    z-index:-2;
+}
+.forth{
+    position:relative;
+    height:100%;
+    color:#fff;
+    background:url(img/p1379.jpg);
+    background-color:#000;
+    background-size:cover;
+    background-position:50% 50%;
+    z-index:-2;
+}
+.fifth{
+    position:relative;
+    height:100%;
+    color:#fff;
+    background:url(img/p1377.jpg);
+    background-color:#000;
+    background-size:cover;
+    background-position:50% 50%;
+    z-index:-2;
+}
+
+.sixth{
+    position:relative;
+    height:100%;
+    color:#fff;
+    background:url(img/p1215.jpg);
+    background-color:#000;
+    background-size:cover;
+    background-position:50% 50%;
+    z-index:-2;
+}
+
+.seventh{
+    position:relative;
+    height:100%;
+    color:#fff;
+    background:url(img/p1105.jpg);
+    background-color:#000;
+    background-size:cover;
+    background-position:50% 50%;
+    z-index:-2;
+}
+
+.end{
+    position:relative;
+    height:200px;
+    width:40%;
+    margin:250px 40% 0 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.endfont{
+    position: absolute;
+    text-align:center;
+    font-size:24px;
+    Letter-spacing:5px;
+    Line-height:1.5em;
+    color:#333;
+}

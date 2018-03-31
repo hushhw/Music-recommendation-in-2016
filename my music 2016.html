@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>2016年度音乐推荐</title>
+    <link href="first.css" rel="stylesheet" type="text/css" />
+
+
+    <script type="text/javascript">
+
+    function music(){
+        var audio = document.getElementById("bgMusic");
+        audio.play();
+        audio.pause();
+        audio.currentTime = 0;
+        audio.currentTime = 0;
+        audio.play();
+    }
+    function zhankai(){
+        document.all.child1.style.display=(document.all.child1.style.display=='none')?'':'none';
+    }
+
+    </script>
+
+</head>
+<body >
+<div class="first" id="one">
+    <header class="name">
+        <div  class="name1">
+            <span clss="font">2016年度音乐推荐</span>
+        </div>
+        <div class="name2">
+            <div class="name3" onclick="music()">
+                <img class="music" src="img/music.png" >
+                <span class="font,music" >播放背景音乐</span>
+                <audio id="bgMusic">
+                    <source  src="mp3/dream.mp3" style="display:none;">
+                </audio>
+            </div>
+        </div>
+    </header>
+    <video autoplay="autoplay" loop="loop" class="video">
+        <source src="video/first.mp4" type="video/mp4">
+    </video>
+    <div class="name4">
+    <ul class="nav">
+        <li><a href="#one" >Intro</a></li>
+        <li><a href="#two"  >First</a></li>
+        <li><a href="#three" >Second</a></li>
+        <li><a href="#four" >Third</a></li>
+        <li><a href="#five" >Forth</a></li>
+        <li><a href="#six" >Fifth</a></li>
+        <li><a href="#seven" >Outro</a></li>
+    </ul>
+    </div>
+    <div class="png">
+        <img class="firstpng" src="img/first.png" >
+    </div>
+    <div class="firstwenzi">* DESIGNED BY HUSHHW</div>
+</div>
+
+<div class="second" id="two">
+    <div class="all">
+        <div class="lyric">
+            <span class="lyricwrite">《理想》<br>理想永远都年轻<br>你让我倔强地反抗着命运<br>你让我变得苍白<br>却依然天真的相信花儿会再次的盛开</span>
+        </div>
+        <div class="player">
+        <img class="photo" src="img/lixiang.jpg" >
+        </div>
+    </div>
+</div>
+
+<div class="third" id="three">
+    <div class="all">
+        <div class="lyric">
+            <span class="lyricwrite">《安和桥》<br>我知道那些夏天就像你一样回不来<br>我已不会再对谁满怀期待<br>我知道这个世界每天都有太多遗憾<br>所以 你好 再见</span>
+        </div>
+        <div class="player">
+            <img class="photo" src="img/anheqiao.png">
+        </div>
+    </div>
+</div>
+
+<div class="forth" id="four">
+    <div class="all">
+        <div class="lyric">
+            <span class="lyricwrite">《定西》<br>这么多年你一个人一直在走<br>方向和天气的节奏会让你忧愁<br>你说你遇见了一大堆奇怪的人<br>他们看上去好像都比你开心</span>
+        </div>
+        <div class="player">
+            <img class="photo" src="img/dinxi.jpg">
+        </div>
+    </div>
+</div>
+
+<div class="fifth" id="five">
+    <div class="all">
+        <div class="lyric">
+            <span class="lyricwrite">《无法长大》<br>月光守望的木屋 天使停落的窗台<br>欢笑声把烦心事掩盖<br>我多想能和你一样做一个小孩<br>我不能 我不能</span>
+        </div>
+        <div class="player">
+            <img class="photo" src="img/mali.jpg">
+        </div>
+    </div>
+</div>
+
+<div class="sixth" id="six">
+    <div class="all">
+        <div class="lyric">
+            <span class="lyricwrite">《嘿，抬头》<br>在每个灿烂的星空下<br>对自己说<br>嘿，抬头！<br></span>
+        </div>
+        <div class="player">
+            <img class="photo" src="img/hei.jpg">
+        </div>
+    </div>
+</div>
+
+<div class="seventh" id="seven">
+    <div class="all">
+    <div class="end">
+        <span class="endfont">你推荐的歌我都听过<br>听过后和你一样寂寞</span>
+    </div>
+    </div>
+</div>
+</body>
+</html>
